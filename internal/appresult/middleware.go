@@ -4,9 +4,6 @@ import (
 	"strings"
 	"test-crm/internal/config"
 
-	//sentryhttp "github.com/getsentry/sentry-go/http"
-
-	// "clean-backend/pkg/utils"
 	"errors"
 	"fmt"
 	"net/http"
@@ -110,7 +107,3 @@ func PermissionCheck(h http.HandlerFunc) http.HandlerFunc {
 		return
 	}
 }
-
-// func SentryHandler(h http.HandlerFunc) http.HandlerFunc {
-// 	return sentryhttp.New(sentryhttp.Options{}).HandleFunc(h)
-// }

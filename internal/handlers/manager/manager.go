@@ -39,7 +39,6 @@ func Manager(client postgresql.Client,  logger *logging.Logger) *mux.Router {
 	WorkerRouterRepository := workerdb.NewRepository(client, logger)
 	WorkerHandler := worker.NewHandler(WorkerRouterRepository, logger)
 	WorkerHandler.Register(WorkerRouterManager)
-
 	
 	return router
 }

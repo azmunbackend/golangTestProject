@@ -2,7 +2,6 @@ package user
 
 type MyError struct {
     Message string
-    // Diğer gerekli alanlar
 }
 
 func (e MyError) Error() string {
