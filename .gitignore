@@ -1,0 +1,31 @@
+.DS_Store
+Thumbs.db
+
+# Derleme çıktıları
+*.exe
+*.dll
+*.so
+*.dylib
+
+
+# Geçici dosyalar ve klasörler
+.tmp/
+.temp/
+*.tmp
+
+# IDE ve editör özellik dosyaları
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+
+# Derleme ve kurulum dosyaları
+node_modules/
+vendor/
+
+# Kişisel veya hassas bilgiler içeren dosyalar
+config.ini
+secrets.txt
+
+# Log dosyaları
+*.log
